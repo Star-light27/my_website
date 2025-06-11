@@ -1,0 +1,94 @@
+body{
+    background-image: url(https://file.garden/Z6Sjo1OdCyNk2XjS/website%20BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h2{
+    position: relative;
+    top: 30px;
+    left: 3px; z-index: 1;
+    color: #1f093d;
+
+}
+#card-container {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    display: inline-block;
+}
+
+#card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.input-field {
+    position: absolute;
+    width: 80%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    outline: none;
+}
+/*Input infos*/
+#name { top: 280px; left: 9.4%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#age { top: 115px; left: -11%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#species { top: 185px; left: -11%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#Gender { top: 80px; left: -11%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#Birthday { top: 150px; left: -11%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#Role { top: 220px; left: -11%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#name { top: 280px; left: 9.4%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#Likes { top: 75px; left: 5%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 145px;}
+#Dislikes { top: 180px; left: 5%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 145px;}
+#Aboutthem { top: 80px; left: 38%; font-size: 20px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 160px;}
+#Personality { top: 320px; left: 37%; font-size: 20px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 200px;}
+#Powers { top: 320px; left: 5%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 100px;}
+
+#Weapons { top: 385px; left: 5%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 100px;}
+#Fear { top: 450px; left: 5%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 160px;}
+#Hobbies { top: 320px; left: 24%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 100px;}
+#Fvcolor { top: 370px; left: 24%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 100px;}
+#Fvfood { top: 420px; left: 24%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 100px; width: 100px;}
+#Fvpet{ top: 460px; left: -10%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#Quote { top: 335px; left: 9.4%; font-size: 20px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#Creator { top: 480px; left: 9.4%; font-size: 17px; background: none; color: rgb(30, 7, 51); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+/*Image creation*/ 
+#oc-image {
+    position: absolute;
+    top: 51px;
+    left: 543px;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid rgb(226, 152, 255);
+    display: none;
+    border-radius: 50%;
+}
+
+#download-btn, #upload-btn {
+    cursor: pointer;
+    width: 100px;
+}
+button:hover{
+    transform: scale(1.3);
+    transition: all 0.2s ease;
+}
+#watermark{
+    position: absolute;
+    top: 650px;
+    left: 1250px;
+    width: 100px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Planner</title>
+    <link rel="stylesheet" href="card_test.css">
+</head>
+<script src="Story_generator.js"></script>
+<link rel="website icon" type="png" href="https://file.garden/Z6Sjo1OdCyNk2XjS/website%20logo.png"><link>
+<body>
+
+    <h2>Create Your Character Card</h2>
+
+    <div id="card-container">
+        <img id="card" src="https://file.garden/Z6Sjo1OdCyNk2XjS/P.png" alt="Character Card">
+        <input type="text" id="name" class="input-field" placeholder="Name">
+        <input type="text" id="age" class="input-field" placeholder="Age">
+        <input type="text" id="species" class="input-field" placeholder="Species">
+        <input type="text" id="Gender" class="input-field" placeholder="Gender">
+        <input type="text" id="Birthday" class="input-field" placeholder="Birthday">
+        <input type="text" id="Role" class="input-field" placeholder="Role">
+        <textarea type="text" id="Likes" class="input-field" placeholder="Likes"></textarea>
+        <textarea type="text" id="Dislikes" class="input-field" placeholder="Dislikes"></textarea>
+        <textarea type="text" id="Aboutthem" class="input-field" placeholder="About them /story"></textarea>
+        <textarea type="text" id="Personality" class="input-field" placeholder="Personality or / get creative"></textarea>
+        <textarea type="text" id="Powers" class="input-field" placeholder="Powers"></textarea>
+        <textarea type="text" id="Weapons" class="input-field" placeholder="Weapons"></textarea>
+        <textarea type="text" id="Fear" class="input-field" placeholder="Fear/ weakness"></textarea>
+        <textarea type="text" id="Hobbies" class="input-field" placeholder="Hobbies"></textarea>
+        <textarea type="text" id="Fvcolor" class="input-field" placeholder="Fv color"></textarea>
+        <textarea type="text" id="Fvfood" class="input-field" placeholder="Fv food"></textarea>
+        <input type="text" id="Fvpet" class="input-field" placeholder="Fv pet/ animal">
+        <textarea type="text" id="Quote" class="input-field" placeholder="Quote"></textarea>
+        <input type="text" id="Creator" class="input-field" placeholder="Creator">
+        <img id="oc-image">
+    </div>
+
+    <br>
+    <input style="color:#000000 ; background-color: #7359a6; border-radius: 20%; border-style:dashed; border-color: #443368;" type="file" id="upload-btn" accept="image/*" onchange="loadImage(event)">
+    <button style="color:#000000 ; background-color: #7359a6; border-radius: 20%; border-style:dashed; border-color: #443368;" id="download-btn" onclick="downloadCard()">Download Card</button>
+    <a id="Button3" href="Story generator.html"><button style="color:#000000 ; background-color: #7359a6; border-radius: 20%; border-style:dashed; border-color: #443368;"> Home</button></a>
+    <audio id="bgMusic" autoplay muted><source src="https://file.garden/Z6Sjo1OdCyNk2XjS/lofticute2-Song.wav" type="audio/wav">your website dosen't support the audio tag.</audio>
+    <button id="playButton">Music</button>
+    <img id="watermark" src="https://file.garden/Z6Sjo1OdCyNk2XjS/WeaverSpark%20watermark.png"></img>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="card.test.js"></script>
+
+</body>
+</html>
